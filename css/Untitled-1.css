@@ -1,0 +1,42 @@
+
+/*navigation*/
+
+#menu-nav {
+    height: 70px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    height: 70px;
+    text-align: center;
+}
+
+.navbar-brand img {
+    display: inline;
+    height: 36px;
+    margin-left: 40%;
+}
+
+.navbar-collapse {
+    float: right;
+    height: 70px;
+}
+
+#nav-home, #nav-about, #nav-news, #nav-plan, #nav-team, #nav-whitepaper, #language {
+    line-height: 60px;
+    font-size: 18px;
+    background: none;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+#nav-home:hover, #nav-news:hover, #nav-about:hover, #nav-plan:hover, #nav-team:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #0082ff;
+}
+
+#nav-home.chosen, #nav-news:hover, #nav-about.chosen, #nav-plan.chosen, #nav-team.chosen {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #0082ff;
+}

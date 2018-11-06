@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://xchainstudio.net/eng/index.html -->
+<html lang="en" class="gr__xchainstudio_net">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css?v=2">
+    <link rel="stylesheet" href="./css/xct.css?v=2">
+    <link href="./css/news_bootstrap.min.css?v=2" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">   -->
+    <!-- <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>   -->
+    <!-- <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="shortcut icon" href="./images/logo_s.png" tyep="image/x-icon">
+    <title>XChain</title>
+    <meta property="og:title" content="SDEP">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.xchainstudio.net">
+    <meta property="og:image" content="../images/logo.png">
+    <meta property="og:description" content="SDEP --- a Secure Data Exchange Platform based on blockchain technology">
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+    <!-- navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="menu-nav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">switch navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand" href="http://xchainstudio.net/eng/index.html">
+                    <img src="./images/logo.png" alt="NXCT">
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse" onclick="hideself()" mouseleave="hideself()">
+                <div class="nav navbar-nav">
+                    <li class="chosen">
+                        <a id="nav-home" href="">主頁</a>
+                    </li>
+                    <li>
+                        <a id="nav-about" href="#about">解決方案</a>
+                    </li>
+                    <li>
+                        <a id="nav-video" href="#video-page">视频</a>
+                    </li>
+                    <li>
+                        <a id="nav-news" href="#news-news">新聞</a>
+                    </li>
+                    <li>
+                        <a id="nav-plan" href="#roadmap-page">地圖</a>
+                    </li>
+                    <li>
+                        <a id="nav-team" href="#team">團隊</a>
+                    </li>
+                    <li>
+                        <a id="nav-partner" href="#partner">夥伴</a>
+                    </li>
+                    <li>
+                        <a id="nav-whitepaper" href="files/NXCT-CN.pdf" download="NXCT-CN.pdf" target="_blank">白皮書</a>
+                    </li>
+                    <li>
+                        <a id="language" href="index.html">English</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home-page -->
+    <div class="carousel" id="home-page">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="./images/bg01.png">
+            </div>
+        </div>
+        <div class="container">
+            <div class="carousel-caption">
+                <h1>去中心化可信數據交易平台</h1>
+                <!-- <h1>Multi-source Data Exchange Platform</h1> -->
+                <h2>聚焦解決線下中小企業的數據價值發現和重估問題，致力於打造一個分布式數據交易平台，讓中小企業的數據信息實現資產化，並且能夠快速有效合法地進行流通。</h2>
+                <p class="xct-btn">
+                    <a id="Learnmore" href="#about">
+                        了解更多
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- about-page -->
+    <div class="container about-page" id="about">
+        <div class="row">
+            <img src="./images/SDEP.png">
+        </div>
+        <div class="text">
+            <h1>解決方案</h1>
+            <h2>安全數據交換平台</h2>
+            <p>
+                SDEP是基於區塊鏈技術、沙盒機制解決信息不對稱問題，智能合約保護了交易的機密性，投票制度確保交易的公開性、公平性和透明性。
+            </p>
+        </div>
+
+    </div>
+
+    <!-- scenario-page -->
+    <div class="container scenario-page" id="benefits-page">
+        <div class="row">
+            <img src="./images/benefits.png">
+        </div>
+        <div class="text">
+            <h1>優勢</h1>
+            <h2>SDEP的優勢</h2>
+            <p>
+                SDEP的優勢是降低了數據採集成本，提高了數據採集效率，提升行業標準和促進了數據交易，保護數據資產並為數據提供者帶來可持續的收益。
+            </p>
+        </div>
+    </div>
+
+    <!-- video-page -->
+    <div class="container video-page" id="video-page" style="text-align: center">
+        <video src="http://static.nxct.io/intro.mp4" width="100%" controls="controls">
+        </video>
+    </div>
+
+    <!-- 新闻轮播 -->
+    <div id="news-news">
+        <div class="news slide" data-ride="news">
+            <ol class="news-indicators">
+                <li data-target="#news-news" data-slide-to="0" class="active"></li>
+                <!-- <li data-target="#news-news" data-slide-to="1"></li> -->
+                <!-- <li data-target="#news-news" data-slide-to="2"></li> -->
+                <!-- <li data-target="#news-news" data-slide-to="3"></li> -->
+                <!-- <li data-target="#news-news" data-slide-to="4"></li> -->
+            </ol>
+            <div class="news-inner">
+                <!-- <div class="item active">
+                    <img src="images/p.png" alt="1 slide">
+                    <div class="container">
+                        <div class="news-caption">
+                            <h1> </h1>
+                            <h1> </h1>
+                            <h1>NXCT-構建數據交易新生態</h1>
+                            <h1>尊敬的XChain關注者：</h1>
+                            <p>XChain團隊於GMT香港時間2018年3月6日12時成功結束公開募集環節，並於2018年3月9日24時順利完成對NXCT的發放。在募集環節，XChain團隊嚴格執行KYC程序並成功得到17個國家不同參與者的支持。團隊原計畫將16億枚NXCT用於發放，實際完成14.7億枚NXCT的發放，銷毀1.3億枚NXCT。NXCT最終總量將保持為30.7億枚。</p>
+                            <p>XChain團隊將繼續努力推進各項事業的發展，感谢各國參與者的信任。</p>
+
+                            <p class="team">XChain 團隊</p>
+                            <p class="time">2018年3月10日</p>
+
+                            <p><a class="btn btn-lg btn-primary" href="https://mp.weixin.qq.com/s/IoG1h0QyOtk0ctFe-oOZNA"
+                            role="button" target="_blank">閱讀原文</a></p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="item">
+                    <img src="images/p.png" alt="2 slide">
+                    <div class="container">
+                        <div class="news-caption">
+                            <h1>進展公告</h1>
+                            <h1>尊敬的XChain關注者：</h1>
+                            <p>XChain團隊近期認真處理發展中的問題，在不斷完善團隊建設的同時，繼續加緊推進系統的開發。團隊預計在6-7月會發佈SDEP beta版本，同時和合作機構共同对beta版本进行测试。Beta版本測試完成後將加快進度完成併發布正式版本。在推進技術發展的同時，針對歐洲和北美市場也會展開積極的宣傳推廣。針對當下網站的問題，XChain後期會改進官網和更新域名，消息屆時會以公告形式或者在社區中發佈。</p>
+                            <P>公開輪KYC申請將於GMT香港時間2018年2月23日淩晨0點開放。</P>
+                            <p class="team">XChain 團隊</p>
+                            <p class="time">2018年2月22日</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="item">
+                    <img src="images/p.png" alt="3 slide">
+                    <div class="container">
+                        <div class="news-caption">
+                            <h1>聲明</h1>
+                            <p>XChain團隊於香港時間2018年1月26日下午6時獲知项目組原定CEO王俊先生仍為上海數據交易中心有限公司員工之後，及時和王俊先生展開溝通，並成立應急小組。為保持學術和技術上的純潔性，我們於香港時間2018年1月26日晚8時暫將王俊先生在白皮書中參與討論的內容全部刪除，並將對白皮書剩餘部分進行嚴格地審查。為了解釋公眾疑惑，我們也將對存疑的技術相關的內容標注文獻索引。同時XChain團隊立即撤銷王俊先生輪值CEO職務的任命，無限期停止其負責的東亞區市場的業務開展計畫，王俊先生不再與XChain團隊有任何關聯。此事件已經造成XChain重大的負面影響，我們為项目組未進行嚴格的人才審查，向公眾深表歉意。團隊已與上海數據交易中心有限公司進行越洋電話溝通，將會積極配合上海數據交易中心有限公司的鑒定工作。</p>
+                            <p>XChain團隊於2017年3月成立於美國紐約，致力於開發中小企業數據交易平臺，相關平臺尚處於開發階段。XChain團隊於2017年上半年開始對分佈式交易系統進行開發，團隊擁有強大的人才儲備。XChain團隊主要市場覆蓋香港、北美和歐盟地區，目前並未有進入中國內地市場的計畫，但仍非常願意與中國境內優秀的區塊鏈同行保持深度的溝通合作與良性互動。</P>
+                            <p class="team">XChain 團隊</p>
+                            <p class="time">2018年1月30日</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- -->
+                <div class="item active">
+                    <img src="images/p.png" alt="1 slide">
+                    <div class="container">
+                        <div class="news-caption">
+                            <h1>NXCT-構建數據交易新生態</h1>
+                            <p>聚焦于解决数据流通环节问题，打造全新分布式多源数据交易平台，构建数据交易新生态，让更多的企业发现和重估数据价值，让数据能够安全、高效、合法的流通。</p>
+                            <!-- <p>网易新闻发表文章全面介绍XChain團隊及项目背景。</p> -->
+                            <!-- <p class="time">2018年1月23日</p> -->
+                            <p class="btn">
+                                <a class="btn btn-lg btn-primary" href="https://mp.weixin.qq.com/s/IoG1h0QyOtk0ctFe-oOZNA" target="_blank" role="button">阅读原文</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--如果需要左右箭头，可以把下面的注释打开-->
+            <!-- <a class="left news-control" href="#news-news" data-slide="prev"><span
+                class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right news-control" href="#news-news" data-slide="next"><span
+                class="glyphicon glyphicon-chevron-right"></span></a> -->
+        </div>
+    </div>
+
+    <!-- roadmap-page -->
+    <div class="container roadmap-page" id="roadmap-page">
+        <div class="text">
+            <h1>發展路線</h1>
+            <h2>XChain里程碑</h2>
+            <p>1. 2017H1，XChain團隊建立，提出SDEP概念。</p>
+            <p>2. 2017H2，SDEP交易系統完成初步搭建，提出融資設想。</p>
+            <p>3. 2018H1，NXCT完成融資，實現SDEP記帳和清算功能。</p>
+            <p>4. 2018H2，Xchain建立香港、新加坡雙中心，逐步進入世界主流國家。</p>
+        </div>
+        <div class=row>
+            <img src="./images/roadmap.png">
+        </div>
+
+    </div>
+
+
+    <!-- contrymap-page -->
+    <div class="contrymap-page">
+        <div class="text">
+            <h1>項目路線</h1>
+            <h2>XChain市場路線</h2>
+        </div>
+
+        <div class="section__body animate" data-sr-id="8">
+            <div class="map">
+                <div class="map__image">
+                    <img src="images/map.png" alt="" width=100%;>
+
+
+                    <ul class="members">
+                        <li class="member member-1">
+                            <a href="#" class="toggle">
+                                <span></span>
+                            </a>
+                            <div class="member__inner">
+                                <div class="member__content">
+                                    <h5>美國</h5>
+                                </div>
+                                <!-- /.member__content -->
+                            </div>
+                            <!-- /.member__inner -->
+                        </li>
+                        <!-- /.member -->
+
+                        <li class="member member-3">
+                            <a href="#" class="toggle">
+                                <span></span>
+                            </a>
+                            <div class="member__inner">
+                                <div class="member__content">
+
+                                    <h5>中國香港</h5>
+
+                                    <!-- <p>Creative Director</p> -->
+                                </div>
+                            </div>
+                        </li>
+
+
+
+                        <li class="member member-4">
+                            <a href="#" class="toggle">
+                                <span></span>
+                            </a>
+
+                            <div class="member__inner">
+                                <div class="member__content">
+                                    <h5>歐洲</h5>
+                                    <!-- <p>Dev-Ops Engineer</p> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="member member-5">
+                            <a href="#" class="toggle">
+                                <span></span>
+                            </a>
+
+                            <div class="member__inner">
+                                <div class="member__content">
+                                    <h5>新加坡</h5>
+
+                                    <!-- <p>Illustrator</p> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="member member-6">
+                            <a href="#" class="toggle">
+                                <span></span>
+                            </a>
+
+                            <div class="member__inner">
+                                <div class="member__content">
+                                    <h5>日本</h5>
+                                </div>
+                                <!-- /.member__content -->
+                            </div>
+                            <!-- /.member__inner -->
+                        </li>
+                        <!-- /.member -->
+                    </ul>
+                    <!-- /.members -->
+                </div>
+                <!-- /.map__image -->
+            </div>
+            <!-- /.map -->
+        </div>
+        <!-- /.section__body -->
+
+    </div>
+    <!-- /.shell -->
+    </div>
+
+
+    <!-- team-page -->
+    <div class="team-page" id="team">
+        <div class="text">
+            <h1>團隊成員</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team01.png">
+                </div>
+                <div class="name">Shawn Lee</div>
+                <div class="title">首席科學家</div>
+                <div class="bref-bio">
+                    Shawn是加州大學伯克利分校/勞倫斯伯克利國家實驗室博士後研究員，訪問學者，清華大學高等研究院物理博士，是數值計算方法和數學建模方面的專家。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team03.png">
+                </div>
+                <div class="name">Roy Chen</div>
+                <div class="title">首席經濟學家</div>
+                <div class="bref-bio">
+                    Roy是杜克大學經濟學博士，香港大學經濟金融學與數學學士，曾在華盛頓智庫擔任數據分析師，其對數字交易流通有極深的研究。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team09.png">
+                </div>
+                <div class="name">Frank Hu </div>
+                <div class="title">基金会轮值主席 & 首席风控官</div>
+                <div class="bref-bio">
+                    出任XChain首席风控官,基金会首届轮值主席. 在区块链项目投资和传统金融投资有丰富的工作经验的Frank Hu是某A股上市公司的十大流通股股东,同时也是私募基金公司的创始发起人. Frank Hu 先生是ACCA准会员,曾在著名会计师事务所KPMG工作三年担任高级审计师,他拥有丰富的风险控制能力以及敏锐的市场观察能力。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team10.png">
+                </div>
+                <div class="name">Steven Wong </div>
+                <div class="title">基金会理事长</div>
+                <div class="bref-bio">
+                    出任XChain基金会理事长. Steven Wong 是前海智资本投资总监, 私募基金合伙人. 拥有多年银行信贷部门从业经历,为多家企业提供超过100亿人民币的金融支持和服务. 同时Steven Wong是一名连续创业者,具有丰富的创业经验和管理经验.
+                    对一,二级市场投资有独特的见解。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team02.png">
+                </div>
+                <div class="name">Michael Lee </div>
+                <div class="title">首席技術官</div>
+                <div class="bref-bio">
+                    Michael取得北京大學信息技術和軟件開發雙學位。他曾經擔任酷我音樂的資深網頁開發工程師，曾就職於人人遊戲，擔任後臺開發高級工程師。同時他也曾是騰訊SNG資深後臺開發工程師。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team08.png">
+                </div>
+                <div class="name">Xin Luo </div>
+                <div class="title">首席市場官</div>
+                <div class="bref-bio">
+                    Xin畢業於中國傳媒大學，曾任德國外交部直屬文化交流機构Gothe-Institute公關部總監。Litchi Mind的聯合創始人之一。有豐富的跨文化交流以及拓展國際商務活動和跨國企業合作的經驗。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team04.png">
+                </div>
+                <div class="name">Zheng Liu</div>
+                <div class="title">技術專家</div>
+                <div class="bref-bio">
+                    Zheng是前大眾點評系統構架師，曾任職百度廣告部算法研發工程師，在大規模分布式系統設計，大數據分析處理和數學建模領域經驗豐富。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team05.png">
+                </div>
+                <div class="name">Sisi Chen</div>
+                <div class="title">首席財務官</div>
+                <div class="bref-bio">
+                    Sisi是金融會計碩士，執業註冊會計師，曾工作與KPMG，有豐富的IPO和審計經驗以及風控經驗。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team06.png">
+                </div>
+                <div class="name">Zhipeng Jiang</div>
+                <div class="title">首席構架師</div>
+                <div class="bref-bio">
+                    Zhipeng是法國Ecoles de Mines de Nancy軟件工程碩士，前Facebook高級軟件開發工程師，曾就職與微軟Azure SDEII。在分布式計算和大數據開發領域經驗豐富。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/team07.png">
+                </div>
+                <div class="name">Yujia Zhai</div>
+                <div class="title">首席運營官</div>
+                <div class="bref-bio">
+                    Yujia是前久謙管理諮詢有限公司副董事，曾為眾多世界500強企業提供項目管理諮詢服務，在大數據、TMT、醫療及消費品領域有豐富的項目管理經驗，對公司運營管理尤為擅長。
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- advisor-page -->
+    <div class="advisor-page">
+        <div class="text">
+            <h1>顧問成員 </h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor01.png">
+                </div>
+                <div class="name">薛蠻子</div>
+                <div class="title">戰略顧問</div>
+                <div class="bref-bio">
+                    蠻子基金創始人，知名天使投資人，UT斯達康創始人之一，曾擔任中國電子商務網8848董事長，中華學習網董事長等職務。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor02.png">
+                </div>
+                <div class="name">Jinbo Li</div>
+                <div class="title">技術顧問 </div>
+                <div class="bref-bio">
+                    曾任中國最大互聯網眾籌雲計算服務商、領先的互聯網下載服務提供商迅雷「XNET」集團的技術合夥人，主抓過迅雷、狗狗搜索等核心項目。第三方MSN軟件MSNLite創辦人，該項目運作兩年後成功被小米集團收購。李金波先生將作為互聯網資深技術人士，為團隊的技術方案實施和技術開發效率的提升工作提供諮詢建議。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor08.png">
+                </div>
+                <div class="name">Oisin Lunny</div>
+                <div class="title">技術顧問 </div>
+                <div class="bref-bio">
+                    出任XChain团队顾问. 作为公认的移动专家和思想领袖,Oisin Lunny在世界各个角落的200多场会议上主持,并发表了主题演讲. 其中包括TEDx和SXSW的六次会议. 采访他的知名媒体包括CNN商业新闻,观察员,英国广播公司第一电台,商业记者,第四频道,BBC点击,技术欧洲和移动营销等.
+                    Oisin还为英国卫报撰写了关于移动技术的文章. Oisin拥有超过25年的技术和媒体背景, 包括担任全球最重要的青少年社交空间的英国董事总经理,以及欧洲最大网络运营商媒体服务全球产品经理。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor09.png">
+                </div>
+                <div class="name">Travis Liu</div>
+                <div class="title">技術顧問 </div>
+                <div class="bref-bio">
+                    出任XChain团队顾问.Travis Liu 在电信和互联网行业有18年从业经验,曾担任应用工程师,产品和销售专家. 他喜欢挑战不同的角色,从可敬的工程师到成功的商业领袖,从本地经理到跨境从业者. 他拥有E.E硕士学位,曾在荷兰Javra
+                    Software公司担任亚洲总监,并曾任职于EXFO(加拿大高科技公司),GN Nettest(丹麦电信公司)和西门子公司。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor03.png">
+                </div>
+                <div class="name">Sead Muftic</div>
+                <div class="title">技術顧問 </div>
+                <div class="bref-bio">
+                    瑞典皇家理工學院的教授，喬治華盛頓大學客座教授，Entegrity Solutions公司董事局主席，區塊鏈信息安全公司（BIESC）CEO。作為國際計算機網絡安全技術領域專家，其突出成就是與Abdul Ghafoor發明設計和實施了一種全方位兼具保密性、篡改阻止以及非法拷貝和分配的保護系統，Sead
+                    Muftic先生將在區塊鏈應用和交易安全領域為公司提供積極支持。
+                </div>
+            </div>
+            <!-- </div> -->
+            <!-- <div class="row"> -->
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor04.png">
+                </div>
+                <div class="name">Alan Xu</div>
+                <div class="title">戰略顧問 </div>
+                <div class="bref-bio">
+                    Alan就職與全球前三的AMC資產管理公司，擔任高級副總裁職務，負責集團的戰略發展與對外合作業務，有著豐富的投資資源及實操經驗，除此以外，Xu先生曾就職與德意志銀行投行部和摩根大通集團等世界頂級金融機構，負責企業拓展及上市規劃等核心業務，Alan自2013年起開始研究並投資虛擬貨幣市場，有著堅實的理論基礎和豐富的投資經驗，將在基金會管理、項目發展規劃及商業應用方面提供全方位的顧問服務。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor05.png">
+                </div>
+                <div class="name">David Kovacs</div>
+                <div class="title">戰略顧問 </div>
+                <div class="bref-bio">
+                    David Kovacs先生任職於歐洲青年商會秘書長，負責歐洲青年商會整體業務，包括制訂發展戰略與執行，項目管理業務和組織發展等。帶領團隊與國際組織、非政府組織、商業協會和企業合作交流，各類大型活動得到了歐盟各國政府和財團的積極贊助支持。前GREENWILL全球性非盈利組織常務董事，負責帶領團隊與聯合國經合組織、歐洲委員會氣候基金會、世界自然基金會等多個國際組織進行合作，為項目提供項目的國際化策略和建議。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor06.png">
+                </div>
+                <div class="name">Richard Chow</div>
+                <div class="title">戰略顧問 </div>
+                <div class="bref-bio">
+                    Richard Chow先生曾任職於法興銀行巴黎總行投行部，參與了多起歐盟大型企業的併購業務，之後，Chow先生分別任職於法國安盛集團資產管理部、紅杉資本等頂級金融機構，負責項目投融資及投後管理工作，擁有豐富的VC、PE投資經驗，將在項目的資本運作以及公眾政府關係方面提供建議，Chow先生擁有HEC-Paris金融學碩士學位。
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 team-mem">
+                <div class="icon">
+                    <img src="./images/advisor07.png">
+                </div>
+                <div class="name">Lloris Meng</div>
+                <div class="title">技術顧問 </div>
+                <div class="bref-bio">
+                    LlorisMeng先生曾任職於法國阿海法集團總部山略業務部大數據中心，阿海法集團是一家法國核工業公司，作為世界500強企業，AREVA在和能源建設領域全球首屈一指。其主要業務包括核燃料採礦、核燃料提煉和銷售，核反應堆製造、廢料回收、此外公司還生產用於飛機、電腦和手機等產品的電器連接器，阿海法集團作為一個跨區域性大型經濟體，通過龐大的員工、行業信息數據平台在全球多個國家開展公司業務。
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partner-page -->
+    <div class="advisor-page partner-page" id="partner">
+        <div class="text">
+            <h1>PARTNER</h1>
+        </div>
+        <ul>
+            <li>
+                <a href="https://www.bit-z.pro/" target="_blank" rel="nofollow me noopener noreferrer">
+                    <img src="./images/partner1.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="http://www.cbbc.org/" target="_blank" rel="nofollow me noopener noreferrer">
+                    <img src="./images/partner2.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="https://austcham.org/" target="_blank" rel="nofollow me noopener noreferrer">
+                    <img src="./images/partner3.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="http://www.britishchamber.cn/en/home/" target="_blank" rel="nofollow me noopener noreferrer">
+                    <img src="./images/partner4.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="http://www.europeanchamber.com.cn/en/home" target="_blank" rel="nofollow me noopener noreferrer">
+                    <img src="./images/partner5.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bgta.co.uk/" target="_blank" rel="nofollow me noopener noreferrer">
+                    <img src="./images/partner6.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="https://sg.rajahtannasia.com/" target="_blank" rel="nofollow me noopener noreferrer">
+                    <img src="./images/partner7.jpg">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- community-page -->
+    <div class="community-page">
+        <div class="background">
+            <div class="subscribe">
+                <form role="form">
+                    <div class="row">
+                        <div class="logan">
+                            <h1> 了解更多關於XChain的資訊</h1>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <div class="input-group">
+                                <input type="text" id="email" class="form-control" placeholder="請輸入郵件地址">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary sub-btn" id="btn" type="button">
+                                        訂閱
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- /input-group -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="join">加入社區 </div>
+            <div class="icons">
+                <a href="https://m.facebook.com/xchain.blockchain.9?ref=wizard" target="_blank">
+                    <img src="./images/zfacebook.png">
+                </a>
+                <a href="https://twitter.com/XChainOfficial" target="_blank">
+                    <img src="./images/ztwitter.png">
+                </a>
+                <a href="https://t.me/joinchat/ICOGEgvsT-P0EN2nyErC1A" target="_blank">
+                    <img src="./images/ztelegram.jpg">
+                </a>
+                <a href="mailto:%20admin@xchainstudio.net">
+                    <img src="./images/zemail.png">
+                </a>
+            </div>
+            <footer>
+                <p>Copyright © 2017-2018
+                    <a href="">NXCT</a>. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+
+    <script src="./js/news_jquery-1.11.1.min.js"></script>
+    <script src="./js/news_bootstrap.min.js"></script>
+
+
+    <script src="./js/scrollreveal.min.js"></script>
+    <script src="./js/popup.js"></script>
+
+
+    <script>
+
+        //
+        function hideself() {
+            $(".collapse").collapse('toggle');
+        }
+        //common
+        function isEmail(mail) {
+            var reg = /^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/;
+            return reg.test(mail);
+        }
+
+        $(function () {
+            //subscribe
+            $("#btn").click(subscribe);
+
+            //
+            $("#email").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    subscribe();
+                }
+            });
+            //
+
+            function subscribe() {
+                var mail = $("#email").val();
+                if (isEmail(mail) == true) {
+                    $("#email").val("訂閱成功！請查收郵件。");
+                    $("#btn").prop("disabled", true);
+                    $("#email").prop("disabled", true);
+                    $.post("subscribe", { email: mail });
+                } else {
+                    $("#btn").prop("disabled", true);
+                    $("#email").prop("disabled", true);
+                    countdown();
+                }
+            }
+            //
+
+            var count = 10;
+            function countdown() {
+                if (count == 0) {
+                    $("#btn").prop("disabled", false);
+                    $("#email").prop("disabled", false);
+                    $("#email").val("");
+                    count = 10;
+                    return;
+                } else {
+                    $("#email").val("invalid email " + count + "s");
+                    count--;
+                }
+                setTimeout(countdown, 1000)
+            }
+            //
+
+        })
+
+    </script>
+
+
+
+</body>
+<span class="gr__tooltip">
+    <span class="gr__tooltip-content"></span>
+    <i class="gr__tooltip-logo"></i>
+    <span class="gr__triangle"></span>
+</span>
+
+</html>
